@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,100&display=swap');
+
+:root {
+    --white: #fff;
+    --black:#1c2b2d;
+    --blue:#31326f;
+    --blue:#005490;
+    --color-primary:#9d0191;
+    --color-sec:#db6400;
+    --grey:#eee;
+    --dark-grey:#222831;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'open sans',sans-serif;
+
+}
+p{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+img{
+    width: 100%;
+}
+
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+
+}
+    .counter-div{
+        width: 40rem;
+        border: 1px solid var(--grey);
+        padding: 1rem;
+        background-color: var(--blue);
+       color: var(--white);
+       text-align: center;
+       border-radius: 5px;
+
+
+
+    }
+
+    .counter-div > * {
+        margin-bottom: 2rem;
+    }
+
+    .count{
+        font-size: 4rem;
+    }
+    
+    .buttons button{
+        padding: 1rem;
+        margin: 0 1rem;
+        font-size: 1.5rem;
+       color: var(--white);
+       font-weight: 700;
+       border:none;
+       outline: none;
+       border-radius: 3px;
+       cursor: pointer;
+
+    }
+
+    .buttons .substract{
+        background-color: orange;
+    }
+
+    .buttons .reset{
+        background-color: rgb(243, 243, 243);
+        color: var(--black);
+    
+    }
+    .buttons .add{
+        background-color: rgb(22, 190, 16);
+    }
